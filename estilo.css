@@ -1,5 +1,8 @@
 body {
-    background-color: whitesmoke;
+    background-image: url(img/pexels-iriser-943899.jpg);
+    background-size: cover; /* Opcional: Ajusta la imagen para que cubra toda el área */
+    background-repeat: no-repeat; /* Opcional: Evita que la imagen se repita */
+    background-position: center; 
     color: rgb(211, 157, 182);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -10,16 +13,17 @@ body {
     font-style: italic;
     color: white;
     background-color: rgba(232, 226, 185, 0.796); 
-    margin-top: 5%;
+    margin-top: 15%;
     margin-bottom: 3%;
 }
 
-h3 { 
+h2 { 
     margin-bottom: 2%;
+    font-size: large;
 }
 
 span {
-    color: rgb(211, 157, 182);
+    color: rgb(214, 64, 134);
 }
 
 img {
@@ -33,7 +37,7 @@ p {
     color: rgb(211, 157, 182);
 }
 
-li a {
+a {
     color: rgb(211, 157, 182);
 }
 
@@ -52,4 +56,20 @@ p span {
 
 .primerparrafo { 
     text-align: left;
+}
+
+.traslucido{
+    font-size: 24px; /* Tamaño de fuente */
+    color: #fff; /* Color del texto */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro translúcido (50% opaco) */
+    padding: 10px; /* Espaciado alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados opcionales */
+    display: inline-block;
+    
+}
+
+.miInfo {
+    display: grid;
+    place-items: center; /* Centra horizontal y verticalmente */
+    height: 60vh; /* Altura completa de la ventana */
 }
