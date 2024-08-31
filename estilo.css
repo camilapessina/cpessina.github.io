@@ -36,10 +36,6 @@ img {
     border-radius: 0.5cm;
 }
 
-p {
-    color: rgb(211, 157, 182);
-}
-
 a {
     color: rgb(211, 157, 182);
 }
@@ -61,19 +57,20 @@ p span {
     text-align: left;
 }
 
-.traslucido{
-    font-size: 24px; /* Tamaño de fuente */
-    color: #fff; /* Color del texto */
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro translúcido (50% opaco) */
-    padding: 10px; /* Espaciado alrededor del texto */
-    border-radius: 5px; /* Bordes redondeados opcionales */
-    display: inline-block;
-    
+.traslucido {
+    font-size: 1.5rem; /* Ajustado a una unidad relativa */
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 1rem; /* Espaciado aumentado */
+    border-radius: 5px; 
+    margin-bottom: 1.5rem; 
+    line-height: 1.6; 
 }
 
 .miInfo {
     display: grid;
-    place-items: center; /* Centra horizontal y verticalmente */
-    height: 60vh; /* Altura completa de la ventana */
+    place-items: center; /* Centra el contenido en ambas direcciones */
+    height: auto; /* Ajustado para adaptarse al contenido */
+    padding: 1rem; /* Añadido espaciado interno */
 }
 
