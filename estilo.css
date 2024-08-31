@@ -6,6 +6,9 @@ body {
     color: rgb(211, 157, 182);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
 }
 
 #resaltar{
@@ -73,3 +76,4 @@ p span {
     place-items: center; /* Centra horizontal y verticalmente */
     height: 60vh; /* Altura completa de la ventana */
 }
+
